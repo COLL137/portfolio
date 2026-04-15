@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collins | Frontend Developer Portfolio</title>
+    <meta name="author" content="Collins Orumgbe">
+    <link rel="shortcut icon" href="./img/logo_blue.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--NAV SECTION-->
+<nav class="navbar">
+    <div class="logo"><h3>COLL<span>.</span></h3></div>
+
+    <div class="nav-right">
+        <ul class="nav-links" id="nav-links">
+           <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="theme-toggle">🌙 Dark</button>
+
+        <button class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </div>
+</nav>
+
+
+    <!--HERO SECTION-->
+<section class="hero reveal" id="home">
+  <div class="hero-content reveal">
+    <h1 id="typing"></h1>
+    <p class="reveal">I help businesses build fast, modern websites that convert visitors into customers.</p>
+    
+    <div class="hero-buttons">
+      <a href="#projects" class="project-link reveal-left">View My Work</a>
+      <a href="#contact" class="project-link outline reveal-right">Hire Me</a>
+    </div>
+  </div>
+</section>
+
+  <!--SKILLS SECTION-->
+<section id="skills" class="skills reveal">
+    <h2 style="text-align:center; margin:20px 0px; font-size: 2.5rem;" class="reveal">Skills</h2>
+    <div class="skills-grid reveal">
+      <div class="skill-card reveal-left">
+        <img src="./img/logo_html.png" alt="HTML Logo">
+        <h3>HTML5</h3>
+      </div>
+      <div class="skill-card reveal">
+        <img src="./img/logo_css.png" alt="CSS Logo">
+        <h3>CSS3</h3>
+      </div>
+      <div class="skill-card reveal-right">
+        <img src="./img/JavaScript_logo.svg" alt="JavaScript Logo">
+        <h3>JavaScript</h3>
+      </div>
+      <div class="skill-card reveal">
+        <img src="./img/logo_brush.png" alt="Graphic Design Logo">
+        <h3>Graphic Design</h3>
+      </div>
+    </div>
+</section>
+
+  <!-- --- PROJECTS SECTION --- -->
+<section id="projects" class="projects reveal">
+  <h2 style="text-align:center; margin:20px 0px; font-size: 2.5rem;" class="reveal">My Projects</h2>
+  <div class="projects-grid reveal">
+    <div class="projects-item reveal-left">
+      <img src="./img/amazon.PNG" alt="Amazon Clone Web" style="cursor: zoom-in;">
+      <h3>Amazon Website Clone</h3>
+      <p>A responsive e-commerce website built using HTML, CSS, and JavaScript. Designed to showcase product layout, navigation, and a clean user interface for online stores.</p>
+      <a href="https://CollTech001.github.io/amazon-clone" target="_blank" class="project-link">View Project</a>
+    </div>
+
+    <div class="projects-item reveal-right">
+      <img src="./img/portfolio_black.png" alt="Personal Portfolio" style="cursor: zoom-in;">
+      <h3>Personal Portfolio Website</h3>
+      <p>A high-performance, responsive personal hub built using HTML5, CSS3, and Vanilla JavaScript. Features include custom project modals, a mobile-responsive navigation menu, and a validated contact form. Focused on clean code, web accessibility, and fast load times.</p>
+      <a href="./index.html" target="_blank" class="project-link">View Project</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about reveal">
+    <div class="about-container">
+        <div class="about-image">
+            <div class="image-border">
+                <!-- Replace with your actual photo -->
+                <img src="./img/my_img.jpeg" alt="Collins Orumgbe">
+            </div>
+        </div>
+        <div class="about-content">
+            <span class="sub-title">Who I Am</span>
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm <strong>Collins Orumgbe</strong>, a passionate Frontend Developer based in Nigeria. 
+                I specialize in turning complex problems into elegant, user-friendly digital experiences.
+            </p>
+            <p>
+                My journey into coding started with a curiosity about how the web works, which quickly evolved 
+                into a career dedicated to building responsive and performant web applications using modern technologies.
+            </p>
+            
+            <div class="about-stats">
+                <div class="stat-item">
+                    <span class="stat-number">10+</span>
+                    <p>Projects Done</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1+</span>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+
+            <a href="./Collins_Resume.pdf" class="project-link" target="_blank">Download CV</a>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact reveal">
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2 class="reveal">Let's Connect</h2>
+            <p class="reveal">Open for collaborations or just a friendly hello. Feel free to reach out through the form or my social handles.</p>
+            
+            <div class="contact-details">
+                <div class="detail-item reveal">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:orumgbecollins5@gmail.com" target="_blank" style="text-decoration: none; color: inherit;">
+                        <span>orumgbecollins5@gmail.com</span>
+                    </a>
+                </div>
+
+                <div class="detail-item reveal">
+                    <i class="fab fa-whatsapp"></i>
+                    <a href="https://wa.me/+2349133860155" target="_blank" style="text-decoration: none; color: inherit;">
+                        <span>+234 (0) 913 386 0155</span>
+                    </a>
+                </div>
+
+                <div class="detail-item reveal">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Nigeria</span>
+                </div>
+            </div>
+
+            <!-- SOCIAL MEDIA LINKS -->
+            <div class="social-links reveal">
+                <a href="https://wa.me/+2349133860155" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                
+                <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+
+                <a href="https://github.com" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                
+                <a href="https://x.com" target="_blank" title="Twitter/X"><i class="fab fa-x"></i></a>
+            </div>
+            
+        </div>
+
+        <div class="contact-form-wrapper reveal">
+            <form id="contact-form" action="https://web3forms.com" method="POST">
+                 <!-- Replace with your Access Key  -->
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                
+                <div class="form-row">
+                    <input type="text" name="name" placeholder="Name" id="name" required>
+                    <input type="email" name="email" placeholder="Email" id="email" required>
+                </div>
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                
+                <button type="submit" id="submit-btn" class="project-link">
+                    <span id="btn-text">Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+                <button type="button" onclick="sendToWhatsApp()" class="project-link" id="whatsapp-submit-btn">
+                    <span>Send via WhatsApp</span>
+                    <i class="fab fa-whatsapp"></i>
+                </button>
+                <p id="form-status"></p>
+            </form>
+        </div>        
+    </div>
+</section>
+
+
+
+<!-- LIGHTBOX -->
+  <div id="lightbox">
+    <img src="" alt="Lightbox Image">
+  </div>
+
+  <!-- REPLACED FOOTER SECTION -->
+<footer class="main-footer">
+    <div class="footer-container">
+        <!-- Brand Info -->
+        <div class="logo">
+            <h3>COLL<span>.</span></h3>
+            <p>Frontend Developer based in Nigeria. Crafting responsive and user-centered digital experiences.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Social Connections -->
+        <div class="footer-socials">
+            <h4>Let's Chat</h4>
+            <div class="social-icons">
+                <a href="https://wa.me/+2349133860155" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://x.com" target="_blank" title="Twitter"><i class="fab fa-x"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2026 Collins Orumgbe. All rights reserved. Elevating the web, one pixel at a time.</p>
+    </div>
+</footer>
+
+<div id="toast"></div>
+<script src="./script.js"></script>
+
+</body>
+</html>
