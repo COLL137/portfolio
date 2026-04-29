@@ -61,7 +61,7 @@
     const texts = [
     "I Build Modern Websites and Designs",
     "Frontend Developer",
-    "Graphic Designer"
+    "Graphic Designer",
     "I Help Businesses Grow Online"
     ];
 
