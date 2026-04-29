@@ -59,8 +59,9 @@
 
     // 6. Typing effect
     const texts = [
-    "I Build Modern Websites",
+    "I Build Modern Websites and Designs",
     "Frontend Developer",
+    "Graphic Designer"
     "I Help Businesses Grow Online"
     ];
 
