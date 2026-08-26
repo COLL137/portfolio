@@ -2,7 +2,7 @@
 
 Welcome to my professional portfolio! This is a high-performance, responsive personal hub built to showcase my web development journey and technical expertise.
 
-[🔗 View Live Website](https://CollTech001.github.io/portfolio)
+[🔗 View Live Website](https://COLL137.github.io/portfolio)
 
 ## 🛠️ Tech Stack & Workflow
 - **Languages:** HTML5, CSS3, Vanilla JavaScript
